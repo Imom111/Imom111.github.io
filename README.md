@@ -15,4 +15,4 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 -->
 ## Skills:
-![JAVA] (https://img.shields.io/badge/Android-3DDC84/style=for-the-badge&logo=android&logoColor=white&labelColor=101010) <Br>
+![JAVA] https://img.shields.io/badge/test-ok-red <Br>
