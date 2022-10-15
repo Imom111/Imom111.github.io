@@ -1,0 +1,67 @@
+/*
+*** Using code from https://www.youtube.com/watch?v=PSD5pFi6bx4 - @DorianDesings***
+*** Footer under with relative***
+body{
+    position: relative;
+    padding-bottom: 3em;
+    min-height: 100vh;
+}
+
+footer{
+    position: absolute;
+    bottom: 0;
+}
+
+*** Footer under with flex***
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+footer{
+    margin-top: auto;
+}
+
+*** Footer under with grid***
+body{
+    display: grid;
+    grid-template-rows: auto 1fr auto
+    min-height: 100vh;
+}
+*/
+
+html{
+    font-size: 18px;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+footer{
+    margin-top: auto;
+    width: 100%;
+    padding: 16px;
+    background-color: #212529;
+    color: white;
+    text-align: center;
+}
+
+.big_icon_about_me{
+    max-width: 150px;
+    max-height: 150px;
+}
+
+.container_myspa{
+    border-style: solid;
+    border-radius: 80px;
+    border-color: brown;
+}
+
+.img-profile{
+    border-radius: 100%;
+    border: 5px solid rgb(0, 87, 134);
+}
