@@ -4,9 +4,9 @@ import type { UserConfig } from 'vite';
 const config: UserConfig = {
 	plugins: [sveltekit()],
 	build: {
-		outDir: 'dist'
-	}
+		outDir: 'build'
+	},
+	base: '/Imom111.github.io/'
 };
 
-  
 export default config;
