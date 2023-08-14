@@ -1,10 +1,8 @@
 {
-	"name": "portfolio-imom",
+	"name": "riadh-adrani",
 	"version": "0.0.1",
 	"private": true,
-	"homepage": "https://imom111.github.io/",
 	"scripts": {
-		"deploy": "vite build && gh-pages -d build",
 		"dev": "vite dev",
 		"build": "vite build",
 		"preview": "vite preview",
@@ -28,7 +26,6 @@
 		"eslint": "^8.28.0",
 		"eslint-config-prettier": "^8.5.0",
 		"eslint-plugin-svelte3": "^4.0.0",
-		"gh-pages": "^6.0.0",
 		"marked": "^5.1.1",
 		"marked-gfm-heading-id": "^3.0.4",
 		"marked-mangle": "^1.1.0",

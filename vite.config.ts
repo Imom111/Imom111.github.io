@@ -1,12 +1,10 @@
 import { sveltekit } from '@sveltejs/kit/vite';
 import type { UserConfig } from 'vite';
+import { base } from './svelte.config';
 
 const config: UserConfig = {
-	plugins: [sveltekit()],
-	build: {
-		outDir: 'build'
-	},
-	base: '/Imom111.github.io/'
+	base: base + '/',
+	plugins: [sveltekit()]
 };
 
 export default config;
